@@ -21,6 +21,5 @@ if (!commandsJson.commands || !Array.isArray(commandsJson.commands)) {
 commandsJson.commands.forEach(command => {
   if (typeof command !== 'string') {
     handleError('Each item in the commands array must be a string');
-    return;
   }
 })
