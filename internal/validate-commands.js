@@ -34,6 +34,6 @@ commands.forEach(command => {
     posY >= NUM_ROWS
   ) {
     handleError(`${command}: Field ${cellId} does not exist.`);
-    return;
+
   }
 })
